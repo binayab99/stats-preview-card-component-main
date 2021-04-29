@@ -92,16 +92,18 @@ p {
         gap: 1.5rem;
       }
 
+      .stats {
+        &:nth-child(3) {
+          text-transform: uppercase;
+        }
+      }
+
       h2 {
         margin-bottom: 0.2rem;
 
         @media (max-width: 1100px) {
           margin-bottom: 0;
           margin-top: 0;
-        }
-
-        &:nth-child(1) {
-          text-transform: uppercase;
         }
       }
 
